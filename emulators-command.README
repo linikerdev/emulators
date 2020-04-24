@@ -1,20 +1,21 @@
 # Dependências Necessárias
 
 ## Mac OS
-```
+
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
-```
+
 ## Windows
-```
+
 choco install -y python2 jdk8
-```
+
 ## Linux
-```
+
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk
-```
+
+——————————————————
 
 # React Native
 
@@ -22,13 +23,12 @@ Node
 Yarn
 
 # Instalações extras para o Linux
-```
+
 sudo apt-get install gcc-multilib lib32z1 lib32stdc++6
-```
+
 ## x64
-```
+
 sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
-```
 
 ——————————————————
 
@@ -39,7 +39,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-
 
 ~/.bash_profile  ~/.profile  ~/.bashrc  ~/.zshrc
 
-```
+```bat
 export JAVA_HOME=$(/usr/libexec/java_home)
 export ANDROID_HOME=$HOME/Library/Android/sdk
 
@@ -51,16 +51,15 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 ## Windows
 
 ANDROID_HOME
-```
+
 c:\Users\YOUR_USERNAME\AppData\Local\Android\Sdk
-```
+
 Path
-```
+
 %ANDROID_HOME%\platform-tools
 %ANDROID_HOME%\tools
 %ANDROID_HOME%\emulator
-```
+
 # Licenças do AS
-```
+
 yes | sdkmanager --licenses
-```
