@@ -60,6 +60,14 @@ Path
 %ANDROID_HOME%\tools
 %ANDROID_HOME%\emulator
 ```
+#install command line xcode (if Mac Os)
+
+```
+sudo rm -rf /Library/Developer/CommandLineTools (if exists)
+xcode-select --install
+```
+
+
 # Licenças do AS
 ```
 yes | sdkmanager --licenses
